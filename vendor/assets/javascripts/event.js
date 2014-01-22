@@ -1,6 +1,6 @@
 if (typeof document == 'undefined' && typeof navigator == 'undefined') {
-  var document = fabric.document;
-  var navigator = fabric.window.navigator;
+  this.document = fabric.document;
+  this.navigator = fabric.window.navigator;
 }
 
 /*
